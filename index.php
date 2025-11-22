@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Syndicate Element Holding Group</title>
+    <!-- Stylesheets -->
+    <link rel="icon" href="<?php echo THEME_URL;?>/assets/images/favicon.svg">
+    <link href="<?php echo THEME_URL;?>/assets/css/style.css" rel="stylesheet">
+    <!-- Responsive -->
+    <link href="<?php echo THEME_URL;?>/assets/css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <script src="<?php echo THEME_URL;?>/assets/js/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+
+
+    
+    <div class="main-wrapper">
+
+        <div id="header">
+            <div class="mobile-menu">
+                <div class="logo-mobile">
+                    <a href="index.html"><img src="<?php echo THEME_URL;?>/assets/images/logo.svg" alt="Logo"></a>
+                    <div class="close-menu">
+                        <button type="button" class="is-closed">
+                            <span class="hamb-top"></span>
+                            <span class="hamb-middle"></span>
+                            <span class="hamb-bottom"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="mmenu">
+                    <ul class="main_menu clearfix">
+                        <li class="active"><a class="page-scroll" href="index.html">Home</a></li>
+                        <li><a class="page-scroll" href="about.html">About Us</a></li>
+                        <li><a class="page-scroll" href="services.html">Services</a></li>
+                        <li><a class="page-scroll" href="why-choose.html">Why Choose Us</a></li>
+                        <li><a class="page-scroll" href="portfolios.html">Portfolios</a></li>
+                        <li><a class="page-scroll" href="testimonials.html">Testimonials</a></li>
+                        <li><a class="page-scroll" href="blogs.html">Blogs</a></li>
+                        <li><a class="page-scroll" href="faqs.html">FAQs</a></li>
+                        <li><a class="page-scroll" href="contact.html">Contact Us</a></li>
+                        <li><a href="" class="page-scroll btn-site"><span>CTA Goes Here</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <div class="logo-site">
+                    <a href="index.html">
+                        <img src="<?php echo THEME_URL;?>/assets/images/logo.svg" alt="Logo" />
+                    </a>
+                </div>
+                <ul class="main_menu clearfix">
+                    <li class="active"><a class="page-scroll" href="index.html">Home</a></li>
+                    <li><a class="page-scroll" href="about.html">About Us</a></li>
+                    <li><a class="page-scroll" href="services.html">Services</a></li>
+                    <li><a class="page-scroll" href="why-choose.html">Why Choose Us</a></li>
+                    <li><a class="page-scroll" href="portfolios.html">Portfolios</a></li>
+                    <li><a class="page-scroll" href="testimonials.html">Testimonials</a></li>
+                    <li><a class="page-scroll" href="blogs.html">Blogs</a></li>
+                    <li><a class="page-scroll" href="faqs.html">FAQs</a></li>
+                    <li><a class="page-scroll" href="contact.html">Contact Us</a></li>
+                </ul>
+                <div class="opt-mobail">
+                    <div class="cat-site"><a href="" class="page-scroll btn-site"><span>CTA Goes Here</span></a></div>
+                    <button type="button" class="hamburger">
+                        <span class="hamb-top"></span>
+                        <span class="hamb-middle"></span>
+                        <span class="hamb-bottom"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!--header-->
+
+        <div class="section_home" style="background: url(<?php echo THEME_URL;?>/assets/images/thumb-hero.png)">
+            <div class="container">
+                <div class="home_txt wow fadeInUp">
+                    <p>Building Bridges to</p>
+                    <h1>SUCCESS</h1>
+                    <a href="" class="btn-site"><span>CTA Goes Here</span></a>
+                </div>
+            </div>
+        </div>
+        <!--section_home-->
+
+        <div class="section_about">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="txt-about wow fadeInUp">
+                            <h2>About Us</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, </p>
+                            <a href="about.html" class="btn-site"><span>Explore More</span></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="thumb-about wow fadeInUp">
+                            <figure class="abt-top"><img src="<?php echo THEME_URL;?>/assets/images/abt-top.png" alt="" /></figure>
+                            <figure class="abt-bt"><img src="<?php echo THEME_URL;?>/assets/images/abt-bt.png" alt="" /></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--section_about-->
+
+        <div class="section_services">
+            <div class="container">
+                <div class="sec_head wow fadeInUp">
+                    <h2>Our Services</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, </p>
+                </div>
+                <div class="wrapper-crousel wow fadeInUp">
+                    <div class="owl-carousel" id="services-slider">
+                        <div class="item">
+                            <div class="item-service">
+                                <figure><img src="<?php echo THEME_URL;?>/assets/images/serv.svg" alt="Image Services" /></figure>
+                                <div class="txt-service">
+                                    <h4>Financial Support</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-service">
+                                <figure><img src="<?php echo THEME_URL;?>/assets/images/serv.svg" alt="Image Services" /></figure>
+                                <div class="txt-service">
+                                    <h4>Industry Connections</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-service">
+                                <figure><img src="<?php echo THEME_URL;?>/assets/images/serv.svg" alt="Image Services" /></figure>
+                                <div class="txt-service">
+                                    <h4>Strategic Support</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-service">
+                                <figure><img src="<?php echo THEME_URL;?>/assets/images/serv.svg" alt="Image Services" /></figure>
+                                <div class="txt-service">
+                                    <h4>Financial Support</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--section_services-->
+
+        <div class="section_choose">
+            <div class="container">
+                <div class="sec_head wow fadeInUp">
+                    <h2>Why Choose Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,</p>
+                </div>
+                <div class="row-choose">
+                    <div class="col-choose">
+                        <div class="item-choose wow fadeInUp">
+                            <figure><img src="<?php echo THEME_URL;?>/assets/images/choose.svg" alt="Image Choose" /></figure>
+                            <div class="txt-choose">
+                                <h4>Financial Support</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-choose">
+                        <div class="item-choose wow fadeInUp">
+                            <figure><img src="<?php echo THEME_URL;?>/assets/images/choose.svg" alt="Image Choose" /></figure>
+                            <div class="txt-choose">
+                                <h4>Proven Track Record</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-choose">
+                        <div class="item-choose wow fadeInUp">
+                            <figure><img src="<?php echo THEME_URL;?>/assets/images/choose.svg" alt="Image Choose" /></figure>
+                            <div class="txt-choose">
+                                <h4>Extensive Industry Network</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-choose">
+                        <div class="item-choose wow fadeInUp">
+                            <figure><img src="<?php echo THEME_URL;?>/assets/images/choose.svg" alt="Image Choose" /></figure>
+                            <div class="txt-choose">
+                                <h4>Comprehensive Growth Solutions</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--section_choose-->
+        
+        <div class="section_ready">
+            <div class="container">
+                <div class="txt-ready wow fadeInUp">
+                    <h2>READY TO SHAPE THE FUTURE OF BUSINESS?</h2>
+                    <p>Let’s Turn Your Vision into Reality</p>
+                    <a href="" class="btn-site"><span>Get Started Today!</span></a>
+                </div>
+            </div>
+        </div>
+        <!--section_ready-->
+
+        <div class="section_portfolio">
+            <div class="container">
+                <div class="sec_head wow fadeInUp">
+                    <h2>Portfolio</h2>
+                    <p>Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.Lorem Ipsum Is Simply
+                        Dummy Text Of The Printing And Typesetting Industry.</p>
+                </div>
+                <div class="owl-carousel" id="portfolio-slider">
+                    <div class="item">
+                        <div class="item-port">
+                            <figure>
+                                <img src="<?php echo THEME_URL;?>/assets/images/p1.png" alt="Image Portfolio" />
+                            </figure>
+                            <p>Making investing a habit</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-port">
+                            <figure>
+                                <img src="<?php echo THEME_URL;?>/assets/images/p2.png" alt="Image Portfolio" />
+                            </figure>
+                            <p>Your food is ready</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-port">
+                            <figure>
+                                <img src="<?php echo THEME_URL;?>/assets/images/p3.png" alt="Image Portfolio" />
+                            </figure>
+                            <p>Making investing a habit</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-port">
+                            <figure>
+                                <img src="<?php echo THEME_URL;?>/assets/images/p4.png" alt="Image Portfolio" />
+                            </figure>
+                            <p>Your food is ready</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-port">
+                            <figure>
+                                <img src="<?php echo THEME_URL;?>/assets/images/p1.png" alt="Image Portfolio" />
+                            </figure>
+                            <p>Making investing a habit</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-port">
+                            <figure>
+                                <img src="<?php echo THEME_URL;?>/assets/images/p2.png" alt="Image Portfolio" />
+                            </figure>
+                            <p>Your food is ready</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--section_portfolio-->
+        
+        <div class="section_offices">
+            <div class="container">
+                <div class="sec_head wow fadeInUp">
+                    <h2>Our Offices</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="lst-offices">
+                            <div class="item-offices wow fadeInUp">
+                                <a href="">
+                                    <figure><img src="<?php echo THEME_URL;?>/assets/images/ksa.png" alt="" /></figure>
+                                    <p>Kingdoms Of Saudi Arabia</p>
+                                </a>
+                            </div>
+                            <div class="item-offices wow fadeInUp">
+                                <a href="">
+                                    <figure><img src="<?php echo THEME_URL;?>/assets/images/uae.png" alt="" /></figure>
+                                    <p>United Arab Emirates</p>
+                                </a>
+                            </div>
+                            <div class="item-offices wow fadeInUp">
+                                <a href="">
+                                    <figure><img src="<?php echo THEME_URL;?>/assets/images/usa.png" alt="" /></figure>
+                                    <p>United States</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="thumb-map wow fadeInUp">
+                            <img src="<?php echo THEME_URL;?>/assets/images/map.png" alt="Map" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--section_offices-->
+
+        <footer id="footer">
+            <div class="container">
+                <div class="top-footer">
+                    <div class="cont-ft wow fadeInUp">
+                        <figure class="logo-ft">
+                            <img src="<?php echo THEME_URL;?>/assets/images/logo-ft.svg" alt="Logo" class="img-fluid">
+                        </figure>
+                    </div>
+                    <div class="menu-ft wow fadeInUp">
+                        <ul class="list-social">
+                            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bottom-ft">
+                    <div class="menu-ft wow fadeInUp">
+                        <ul class="main_menu">
+                            <li class="active"><a class="page-scroll" href="index.html">Home</a></li>
+                            <li><a class="page-scroll" href="about.html">About Us</a></li>
+                            <li><a class="page-scroll" href="services.html">Services</a></li>
+                            <li><a class="page-scroll" href="why-choose.html">Why Choose Us</a></li>
+                            <li><a class="page-scroll" href="portfolios.html">Portfolios</a></li>
+                            <li><a class="page-scroll" href="testimonials.html">Testimonials</a></li>
+                            <li><a class="page-scroll" href="blogs.html">Blogs</a></li>
+                            <li><a class="page-scroll" href="faqs.html">FAQs</a></li>
+                            <li><a class="page-scroll" href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--footer-->
+
+    </div>
+    <!--main-wrapper-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="<?php echo THEME_URL;?>/assets/js/bootstrap.min.js"></script>
+    <script src="<?php echo THEME_URL;?>/assets/js/all.min.js"></script>
+    <script src="<?php echo THEME_URL;?>/assets/js/owl.carousel.min.js"></script>
+    <script src="<?php echo THEME_URL;?>/assets/js/wow.js"></script>
+    <script src="<?php echo THEME_URL;?>/assets/js/jquery.easing.min.js"></script>
+    <script src="<?php echo THEME_URL;?>/assets/js/script.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+
+</body>
+
+</html>
