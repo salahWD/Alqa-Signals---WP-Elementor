@@ -6,7 +6,7 @@ This project received a **5-star rating** from *Mohammed* under the review title
 **“Converting an HTML Design to WordPress + Elementor Widgets.”**
 
 ---
-
+![Website Preview](screenshot.jpg)
 ## 📌 Project Overview
 
 The client requested a complete conversion of a pre-designed **HTML layout** into a fully functional **WordPress website**, with the ability to customize:
